@@ -1,5 +1,6 @@
 import './App.css';
 import animationData from './frok.json';
+import mainImg from "./web.gif"
 
 import Lottie from 'lottie-react';
 const interactivity = {
@@ -16,12 +17,13 @@ const interactivity = {
 function App() {
    return (
       <div className='App at-item'>
-         <Lottie
+         <img src={mainImg} alt=''></img>
+         {/* <Lottie
             // interactivity={interactivity}
             animationData={animationData}
             // options={defaultOptions}
             loop={true}
-         />
+         /> */}
       </div>
    );
 }
