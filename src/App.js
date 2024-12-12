@@ -1,6 +1,6 @@
 import './App.css';
 import animationData from './frok.json';
-import mainImg from "./web.webp"
+import mainImg from "./web.gif"
 
 import Lottie from 'lottie-react';
 const interactivity = {
